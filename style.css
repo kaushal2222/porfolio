@@ -114,7 +114,7 @@
   
 
 body{
-    background-color: #a0a0a0;
+    background-color: #2d3049;
 }
 
 .navbar {
@@ -182,14 +182,14 @@ body{
     height: 460px;
 }
 
-.floatimg{
-    width: 200px;
-}
+
 
 .user{
     display: flex;
     height: 100%;
     align-items: center;
+    text-align: left;
+    margin-left: 100px;
 }
 
 .one{
@@ -198,11 +198,86 @@ body{
 }
 
 .two{
-    font-size: 26px;
+    font-size: 30px;
     color: #1eff97;
+}
+.three p{
+    font-size: 21px;
+   
+}
+.three{
+    color:white;    
 }
 
 .userimg img{
     height: 462px;
 
+}
+.btns{
+  padding: 3px 13px;
+  margin-top:7px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.but1{
+  background-color: #1eff97;
+  padding: 5px 26px;
+}
+.but1:hover{
+  background-color: transparent;
+  border: solid 0.2px grey;
+  padding: 3px 26px;
+  color: white;
+  transition: 0.3s;
+
+}
+.but2{
+  padding: 4px 13px;
+  background-color: transparent;
+  color: white;
+  border: solid 0.2px grey;
+
+}
+.but2:hover{
+  background-color: #ea4dfffc;
+  transition: 0.3s;
+  color: black;
+  border: solid 2px #ea4dfffc;
+}
+.skill_section{
+  padding: 4%;
+
+}
+.h1 span{
+  color: #727272;
+  font-size: 1.2rem;
+
+}
+.h2 span{
+  color: #1eff97;
+  font-size: 2.2rem;
+ 
+}
+.bottom{
+  border: 1px solid #1eff97 ;
+  width: 5%;
+}
+.skill{
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.github{
+  
+  color: white;
+    /* border: 1px solid red; */
+    width: 200px;
+    padding: 12px;
+    box-shadow: 0px 0px 12px 2px black ;
+}
+.icon{
+  width: 44px;
+  
 }
