@@ -277,6 +277,10 @@ color: white;
   padding: 30px;
   box-shadow: 0px 0px 12px 2px black ;
 }
+.github:hover{
+  box-shadow: 0px 0px 37px 6px red;;
+  
+}
 .icon{
 width: 44px;
 
